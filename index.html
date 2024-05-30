@@ -1,0 +1,30 @@
+<html>
+    <head>
+<!-- KARLA GOOGLE FONT SOURCE-->   
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Anton&family=Happy+Monkey&family=Karla:ital,wght@0,200..800;1,200..800&family=Poetsen+One&display=swap" rel="stylesheet">
+<!-- CSS ANIMATIONS SOURCE-->
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />        
+<!-- PERSONAL CSS STYLE SHEET-->
+<link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+<div id="container">   
+    <div id="header-section">
+        <h1 class="animate__animated animate__slideInDown">Generate a <span>random password</span></h1>
+        <p>Never use an insecure password again. Create your own secure 15 character passwords. <em>Easily!</em></p>
+        <button id="genPassBTN" onclick="genRandoPass()" class="animate__animated animate__pulse animate__delay-1s" >Generate Password</button>
+    </div>
+        <hr>
+    <div id="password-section">
+        <div id="password1"></div>
+        <div id="password2"></div>
+    </div> 
+</div> 
+        <script src="index.js"></script>
+    </body>
+</html>
